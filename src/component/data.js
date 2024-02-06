@@ -40,8 +40,8 @@ const product = [
     {
         color: 'sonoma',
         nameColorRu: 'Сонома',
-        image: '/src/assets/905077.jpg',
-        texture:'/src/assets/793731.jpg',
+        image: 'src/assets/905077.jpg',
+        texture:'src/assets/793731.jpg',
         count: 200000,
         markup: 10,
         height: {

@@ -8,7 +8,6 @@ const Form = (props) => {
     const [active, setActive] = useState(false)
     function handleSubmit(e) {
         e.preventDefault()
-        console.log(props.isActive)
     }
     const [activePurches, setActivePurches] = useState(false)
     function handleChange(e, obj) {
