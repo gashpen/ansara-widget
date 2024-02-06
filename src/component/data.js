@@ -4,7 +4,7 @@ const product = [
         color: 'white',
         nameColorRu: 'Белый',
         colorHex: '#fff',
-        image: '../../src/assets/905074.jpg',
+        image: './src/assets/905074.jpg',
         count: 200000,
         height: {
             height_200: 200,
@@ -16,7 +16,7 @@ const product = [
         color: 'nacre',
         nameColorRu: 'Перламутр',
         colorHex: '#D8CEC4',
-        image: '../../src/assets/905075.jpg',
+        image: './src/assets/905075.jpg',
         count: 200000,
         markup: 5,
         height: {
@@ -29,7 +29,7 @@ const product = [
         color: 'darkGrey',
         nameColorRu: 'Темно-серый',
         colorHex: '#6E6E6E',
-        image: '../../src/assets/905076.jpg',
+        image: './src/assets/905076.jpg',
         count: 200000,
         markup: 7,
         height: {
@@ -41,8 +41,8 @@ const product = [
     {
         color: 'sonoma',
         nameColorRu: 'Сонома',
-        image: '../../src/assets/905077.jpg',
-        texture:'../../src/assets/793731.jpg',
+        image: './src/assets/905077.jpg',
+        texture:'./src/assets/793731.jpg',
         count: 200000,
         markup: 10,
         height: {
