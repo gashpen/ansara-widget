@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Gilroy',Arial,sans-serif;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Gilroy';
+  src: url(./fonts/Gilroy-Light.otf);
+}
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url(./fonts/Gilroy-ExtraBold.otf);
+}
+input[type="radio"] {
+  -webkit-appearance: none;
+  appearance: none;
+}
+.ant-modal-wrap{
+  backdrop-filter: blur(15px);
+}
+.d-none{
+  display: none;
+}
+.d-block{
+  display: block;
+}
+
+button{
+  border: none; 
+  outline: none
+}
+input {
+  color: transparent;
+  text-shadow: 0 0 0 black;
+} 
+

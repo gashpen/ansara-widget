@@ -1,0 +1,131 @@
+.form_gropup {
+    position: relative;
+}
+
+.product_dropdown-height {
+    font-size: 14px;
+    font-weight: 600;
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    padding: 0 15px;
+    appearance: none;
+    transition: all 0.2s ease;
+    outline: none;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+
+}
+
+.product_dropdown-height-wrap::before {
+    content: '';
+    position: absolute;
+    width: 13px;
+    height: 11px;
+    background-image: url(../../assets/chevron-down.svg);
+    background-position: center;
+    z-index: 10;
+    top: 14px;
+    right: -45px;
+    background-size: 18px;
+    pointer-events: none;
+}
+
+.product_dropdown-height:hover {
+    transition: all 0.2s ease;
+    border: 1px solid #0f68e4;
+}
+
+.dropdown_option {
+    border-radius: 30px;
+}
+
+.dropdown_option:focus {
+    box-shadow: none;
+}
+
+.product_dropdown-height {}
+
+
+.dropdown {
+    width: 120px;
+    border-radius: 30px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: white;
+    position: absolute;
+    transition: all 0.2s ease;
+}
+
+.dropdown:hover {
+    transition: all 0.2s ease;
+    border: 1px solid #0f68e4;
+}
+
+.dropdown-header {
+    background-color: #fff;
+    padding: 0 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    height: 40px;
+    position: relative;
+    z-index: 5;
+}
+
+.dropdown-body {
+    padding: 5px;
+    border-top: 1px solid #E5E8EC;
+    display: none;
+}
+
+.dropdown-body.open {
+    border-radius: 35px;
+    display: block;
+    position: absolute;
+    width: 120px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    top: -4px;
+    z-index: 2;
+    border-top: none;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.dropdown-item:hover {
+    cursor: pointer;
+
+}
+
+.dropdown-item {
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.dropdown-item-dot {
+    opacity: 0;
+    color: #91A5BE;
+    transition: all .2s ease-in-out;
+    background-image: url(../../assets/8665019_check_mark_icon.svg);
+    width: 15px;
+    height: 18px;
+    background-repeat: no-repeat;
+    background-position-y: 5px;
+}
+
+.dropdown-item-dot.selected {
+    opacity: 1;
+}
+
+.icon {
+    font-size: 13px;
+    color: #91A5BE;
+    transform: rotate(0deg);
+    transition: all .2s ease-in-out;
+}
+
+.icon.open {
+    transform: rotate(90deg);
+}
