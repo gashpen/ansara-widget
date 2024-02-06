@@ -1,4 +1,4 @@
-import q from '../../src'
+
 const product = [
     {
         color: 'white',
