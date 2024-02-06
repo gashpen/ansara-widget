@@ -1,4 +1,3 @@
-import q from '../../src/assets/'
 
 const product = [
     {
