@@ -1,7 +1,7 @@
 import './App.css'
 import { useState } from 'react';
 import Form from './component/Form';
-
+import white from '../../test-ansara/src/assets/905074.jpg'
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isActive, setIsActive] = useState({
@@ -11,12 +11,12 @@ function App() {
       height_210: 210,
       height_220: 220,
     },
-    image: 'src/assets/905074.jpg',
+    image: white,
     count: 200000,
     nameColorRu: 'Белый',
-    colorHex:'#fff',
+    colorHex: '#fff',
   })
-  const [label, setLabel]= useState(200)
+  const [label, setLabel] = useState(200)
   return (
 
     <div className='product_card-wrap'>
@@ -37,8 +37,8 @@ function App() {
         <div className='product_price-wrap'>
           <span>Стоимость</span>
           <div className='product_change'>{isActive.markup ?
-            ((label*1000) / 100) * isActive?.markup
-            + (label*1000) :label*1000} ₽
+            ((label * 1000) / 100) * isActive?.markup
+            + (label * 1000) : label * 1000} ₽
           </div>
         </div>
         <Form
@@ -51,8 +51,6 @@ function App() {
         />
       </div>
     </div>
-
-
   )
 }
 
