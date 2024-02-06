@@ -1,8 +1,8 @@
-import white from '../../../test-ansara/src/assets/905074.jpg'
-import nacre from '../../../test-ansara/src/assets/905075.jpg'
-import darkGrey from '../../../test-ansara/src/assets/905076.jpg'
-import sonoma from '../../../test-ansara/src/assets/905077.jpg'
-import sonomaTexture from '../../../test-ansara/src/assets/793731.jpg'
+import white from '../assets/905074.jpg'
+import nacre from '../assets/905075.jpg'
+import darkGrey from '../assets/905076.jpg'
+import sonoma from '../assets/905077.jpg'
+import sonomaTexture from '../assets/793731.jpg'
 const product = [
     {
         color: 'white',
