@@ -1,7 +1,7 @@
 import './App.css'
 import { useState } from 'react';
 import Form from './component/Form';
-import white from '../../test-ansara/src/assets/905074.jpg'
+import white from '../src/assets/905074.jpg'
 function App() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [isActive, setIsActive] = useState({
